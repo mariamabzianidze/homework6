@@ -27,66 +27,36 @@ header {
 .active {
   color: #e29770;
 }
-.logo_link1 {
-  width: 37.96px;
-  height: 37.77px;
-}
-.logo_link2 {
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  background-color: black;
-}
-.logo_image1,
-.logo_image2 {
-  width: 100%;
-  height: 100%;
-}
 /* section */
-section {
+.main_section {
   width: calc(1244 / 1440 * 100%);
+  margin: 94px auto;
 }
 .section_h2 {
   font-family: "Ubuntu", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 36.77px;
-  text-align: left;
-  width: 232px;
-  height: 37px;
   color: #942c0d;
 }
-.section2 {
+.middle_section {
   display: flex;
   justify-content: space-between;
   margin-top: 68px;
   flex-wrap: wrap;
   gap: 30px 22px;
 }
-.flex_item {
-  width: 400px;
-  height: 354px;
-  padding: 30px 0px 0px 0px;
-  display: flex;
-}
 article {
   padding: 30px;
   width: 400px;
-  height: 354px;
   border-radius: 10px;
   background-color: #ddeaf8;
-}
-.section_article{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: end;
+  flex-direction: column;
+  align-items: flex-end;
   row-gap: 30px;
-  width: 400px;
-  height: 354px;
-  border-radius: 10px;
-  background-color: #ddeaf8;
-  padding: 30px;
 }
+
 .article_image {
   width: 100%;
   height: 220px;
@@ -103,7 +73,6 @@ button {
   font-weight: 400;
   line-height: 32px;
   color: #ffffff;
-  display: flex;
 }
 /* footer */
 footer {
@@ -121,17 +90,9 @@ footer {
   line-height: 40px;
   color: #ffffff;
   text-decoration: underline;
+  text-underline-offset: 8px;
 }
 .footer_li {
   display: flex;
   column-gap: 32px;
-}
-
-.footer_icon_link {
-  width: 18px;
-  height: 18px;
-}
-.footer_icon_img {
-  width: 100%;
-  height: 100%;
 }
